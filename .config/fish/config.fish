@@ -17,7 +17,7 @@ alias cat "bat --style=plain --paging=never"
 alias ls "exa --group-directories-first"
 alias tree "exa -T"
 alias dotfiles "git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
-alias mirror "--save /etc/pacman.d/mirrorlist --protocol https --country Germany --latest 10 --sort rate"
+alias mirror "sudo reflector --save /etc/pacman.d/mirrorlist --protocol https --country Germany --latest 10 --sort rate"
 alias orphans "sudo pacman -Rns (pacman -Qqtd)"
 
 # Abbreviations
