@@ -43,7 +43,7 @@ In profile menu, toggle option "Right expanded cover" to change expaned current 
 Make sure you are using spicetify >= v2.5.0 and Spotify >= v1.1.56.
 ### Windows
 ```powershell
-Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/morpheusthewhite/spicetify-themes/master/Dribbblish/install.ps1" | Invoke-Expression
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Dribbblish/install.ps1" | Invoke-Expression
 ```
 
 ## Manual Install
@@ -80,7 +80,7 @@ xpui.js_repl_8008 = ,${1}56,
 ```
 
 ## Change Color Schemes
-There are 9 color schemes you can choose: `base`, `white`, `dark`, `dracula`, `nord-dark`, `nord-light`, `samourai`, `purple`. Change scheme with commands:
+There are 9 color schemes you can choose: `base`, `white`, `dark`, `dracula`, `nord-dark`, `nord-light`, `beach-sunset`, `samourai`, `purple`. Change scheme with commands:
 ```
 spicetify config color_scheme <scheme name>
 spicetify apply
@@ -89,7 +89,7 @@ spicetify apply
 ## Auto-uninstall 
 ### Windows
 ```powershell
-Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/morpheusthewhite/spicetify-themes/v2/Dribbblish/uninstall.ps1" | Invoke-Expression
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/spicetify/spicetify-themes/v2/Dribbblish/uninstall.ps1" | Invoke-Expression
 ```
 
 ## Manual uninstall 
