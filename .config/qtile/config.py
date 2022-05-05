@@ -70,10 +70,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "space", lazy.spawn("./.config/rofi/launchers/colorful/launcher.sh")),
 
     # Power Menu
-    ([mod, "control"], "p", lazy.spawn("./.config/rofi/powermenu/powermenu.sh")),
-
-    # Window Nav
-    ([mod, "shift"], "space", lazy.spawn("rofi -show")),
+    ([mod], "x", lazy.spawn("./.config/rofi/powermenu/powermenu.sh")),
 
     # Browser
     ([mod], "b", lazy.spawn("chromium")),
@@ -309,7 +306,7 @@ layouts = [
     # ),
     layout.MonadTall(**layout_theme),
     layout.MonadTall(**layout_theme, align=1),
-    # layout.RatioTile(**layout_theme),
+    layout.RatioTile(**layout_theme),
     # layout.VerticalTile(**layout_theme),
     # layout.Matrix(**layout_theme, columns=3),
     # CustomZoomy(**layout_theme),
