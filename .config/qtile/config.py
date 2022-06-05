@@ -73,7 +73,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "x", lazy.spawn("./.config/rofi/powermenu/powermenu.sh")),
 
     # Browser
-    ([mod], "b", lazy.spawn("chromium")),
+    ([mod], "b", lazy.spawn("firefox")),
 
     # File Explorer
     ([mod], "e", lazy.spawn("thunar")),
@@ -309,7 +309,7 @@ layouts = [
     layout.RatioTile(**layout_theme),
     # layout.VerticalTile(**layout_theme),
     # layout.Matrix(**layout_theme, columns=3),
-    # CustomZoomy(**layout_theme),
+    CustomZoomy(**layout_theme),
     # layout.Slice(**layout_theme),
     # layout.TreeTab(
     #    **layout_theme,

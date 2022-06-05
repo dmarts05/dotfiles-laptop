@@ -49,7 +49,7 @@ icon_size = 14
 
 screens = [
     Screen(
-        wallpaper="~/Pictures/wallpapers/nord.jpg",
+        wallpaper="~/Pictures/wallpapers/nord-zelda.png",
         wallpaper_mode="fill",
         top=bar.Bar(
             [
